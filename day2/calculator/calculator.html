@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="./calculator.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>My Calculator</h1>
+      <div class="result-container">
+        <input type="text" id="result" readonly value="0" />
+      </div>
+      <div class="button-container">
+        <button type="button" onclick="memoryCancel()">MC</button>
+        <button type="button" onclick="memoryRestore()">MR</button>
+        <button type="button" onclick="memoryAdd()">M+</button>
+        <button type="button" onclick="memoryMinus()">M-</button>
+        <button type="button" onclick="memorySave()">MS</button>
+        <button type="button" onclick="append('%')">%</button>
+        <button type="button" onclick="clearAll()">CE</button>
+        <button type="button" onclick="clearAll()">C</button>
+        <button type="button" onclick="backSpace()">
+          <i class="bi bi-backspace"></i>
+        </button>
+        <button type="button" onclick="append('7')">7</button>
+        <button type="button" onclick="append('8')">8</button>
+        <button type="button" onclick="append('9')">9</button>
+        <button type="button" onclick="append('/')">/</button>
+        <button type="button" onclick="append('4')">4</button>
+        <button type="button" onclick="append('5')">5</button>
+        <button type="button" onclick="append('6')">6</button>
+        <button type="button" onclick="append('*')">x</button>
+        <button type="button" onclick="append('1')">1</button>
+        <button type="button" onclick="append('2')">2</button>
+        <button type="button" onclick="append('3')">3</button>
+        <button type="button" onclick="append('-')">-</button>
+        <button type="button" onclick="changeSign()">+/-</button>
+        <button type="button" onclick="append('0')">0</button>
+        <button type="button" onclick="append('.')">.</button>
+        <button type="button" onclick="append('+')">+</button>
+        <button type="button" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="./calculator.js"></script>
+  </body>
+</html>

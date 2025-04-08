@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(360, 10%, 20%);
+}
+.result-container {
+  width: 550px;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+input {
+  width: 99%;
+  font-size: 3em;
+  text-align: right;
+  background-color: hsl(360, 10%, 20%);
+  color: yellow;
+}
+.button-container {
+  width: 530px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  gap: 5px;
+  padding: 5px;
+}
+.button-container button {
+  /* width: 100px; */
+  height: 80px;
+
+  border-radius: 50px;
+  font-size: 2em;
+  background-color: hsl(360, 30%, 80%);
+}
+.button-container button:nth-child(26) {
+  grid-column: 2 / span 3;
+  background-color: yellow;
+}
+.button-container button:hover {
+  background-color: hsl(360, 30%, 30%);
+  color: yellow;
+}
+.button-container button:active {
+  background-color: hsl(360, 30%, 70%);
+}
+/* Attendance : https://bit.ly/MA-180924
+Trainer : Tambi
+Session : FN */
