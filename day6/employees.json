@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "Aasaithambi",
+      "lastName": "Jay",
+      "email": "6v2lI@example.com",
+      "password": "aasaithambi123"
+    },
+    {
+      "id": "2",
+      "firstName": "Arun",
+      "lastName": "Kumar",
+      "email": "6v2lI@example.com",
+      "password": "arun123"
+    },
+    {
+      "id": "3",
+      "firstName": "Jakir",
+      "lastName": "Shaik",
+      "email": "6v2lI@example.com",
+      "password": "jakir123"
+    },
+    {
+      "id": "5",
+      "firstName": "Sanjana",
+      "lastName": "Vellanki",
+      "email": "6v2lI@example.com",
+      "password": "sanjana123"
+    }
+  ]
+}
